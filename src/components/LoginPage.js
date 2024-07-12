@@ -12,7 +12,6 @@ const LoginPage = () => {
   React.useEffect(() => {
     localStorage.clear()
     setRedirectFunction(navigate('/Login')); 
-    console.log("SETTEADO")
   },[navigate]);
 
   const handleLogin = async (e) => {
